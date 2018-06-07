@@ -45,7 +45,7 @@ def cmdline():
     parser.add_option('--scale',
                       dest='scale',
                       action='store_true',
-                      default=True,
+                      default=False,
                       help=('Whether or not to rescale the images to the same '
                             'physical size. This is done by looking at the '
                             ' Petrosian radius from the SDSS. If False, the '
@@ -54,7 +54,6 @@ def cmdline():
     (options, args) = parser.parse_args()
 
     return options, args
-
 
 def main():
 
