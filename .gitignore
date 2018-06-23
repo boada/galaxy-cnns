@@ -107,6 +107,7 @@ venv.bak/
 catalogs/*.csv
 images/
 images_15x15/
+images_gray/
 
 test
 test-small
