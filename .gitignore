@@ -111,6 +111,8 @@ images_gray/
 
 test
 test-small
+train-r
+test-r
 tmp
 train
 train-small
