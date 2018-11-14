@@ -108,6 +108,7 @@ catalogs/*.csv
 images/
 images_15x15/
 images_gray/
+images_ps1/
 
 test
 test-small
